@@ -1,0 +1,21 @@
+{
+	"name":"My App",
+	"description":"My first Chrome App.",
+	"version":"0.1",
+
+	"permissions": [
+	  "notifications", "clipboardWrite",
+	  "http://www.youtube.com/*", "https://www.youtube.com/*", 
+	  "http://www.billboard.com/rss/charts/*", "http://www1.billboard.com/rss/charts/*",
+	  "https://www.youtube.com/embed/*", "https://www.googleapis.com/youtube/v3/*",
+	  "http://apis.skplanetx.com/melon/*"
+	],
+
+	"app":{
+		"background":{
+			"scripts":["background.js"]
+		}
+	},
+
+	"icons":{"16":"icon-16.png", "128":"icon-128.png"}
+}
