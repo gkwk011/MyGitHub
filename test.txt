@@ -1,0 +1,23 @@
+git init
+git init --bare
+git clone repository dst
+git add
+git commit
+git push
+git pull
+git reset
+git clean
+git clean -n
+git clean -f
+git checkout
+git rm --cached
+git revent
+git branch
+git branch -d
+git merge
+git pull origin master
+git mergetool
+git rebase -i HEAD~number
+git branch experim ent
+git form at -patch origin/master
+git apply
